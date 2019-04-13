@@ -187,6 +187,7 @@ li{
   font-size: 12px;
   height: 360px;
   width: 100%;
+  flex: 50%;
 }
 
 
