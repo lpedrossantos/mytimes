@@ -55,26 +55,29 @@ main{
   font-size: 17px;
   color: black;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
-  flex-shrink: 2;
+  flex: 10%;
   max-width: 630px;
 }
 
 .column.medium{
   display: flex;
+  flex-wrap: wrap;
   width: 300px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
   flex-direction: column;
   justify-content: center;
-  flex-shrink: 2;
+  flex: 30%;
   max-width: 300px;
 
 }
 
 .column.small{
   display: flex;
+  flex-wrap: wrap;
   width: 240px;
   font-family: Georgia;
   font-size: 16px;
@@ -83,7 +86,7 @@ main{
   justify-content: center;
   position: relative;
   bottom: 200px;
-  flex-shrink: 2;
+  flex-shrink: 30%;
   max-width: 240px;
 
 }
