@@ -188,6 +188,10 @@ li{
   height: 360px;
   width: 100%;
   flex: 50%;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 
